@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h2>Este site tem imagens que se adaptam sozinhas de acordo com o tamanho da sua tela</h2>
+    <!--a Tag "Picture" permiti criar vários src, origem de onde buscar as imagens, -->
+    <picture>
+        <!--a tag Source, permite definir parametros, para quando o navegador do usuario for um tablet, ou celular, poder alterar as origens das imagens, adaptando assim a resolução do navegador-->
+
+        <!--o Source Media Type, vai dizer o seguinte, quando a resolução da tela do navegador for menor do que a imagem do site, uma mesma imagem do site vai aparecer, porem com a resolução menor, adaptando-se assim, a medida em que o usuario vai mexendo na resolução do naveador, ou se abrie em tablet e celular -->
+
+        <!--o SRCSET, é uma especie de imagem alternativa, que busca uma imagem menor, para se adaptar a tela, é preciso apontar o caminho , e TYPE, é para infomar o tipo, -->
+
+        <source media="(max-width: 725px)" srcset="Logo-Ftech-300.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="Logo-Ftech-700.png" type="image/png">
+        <img src="Logo-Ftech-1000.png" alt="foto em 1000px">
+    </picture>
+</body>
+</html>

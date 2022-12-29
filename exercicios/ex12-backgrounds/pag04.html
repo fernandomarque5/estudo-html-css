@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>utilizando a tag cover e contain</title>
+
+    <style>
+
+        body{
+            background-image: url("imagens/wallpaper002.jpg");
+            background-repeat: no-repeat;
+            background-position:center ;
+            background-size: cover; /*tag contain, mostra a imagem inteira (100%) porem, se a resolução for menor ou maior, ela vai mostrar o resntante do fundo do site , ja a tag cover, vai ocupar tambem toda a tela, porem, nao vai deixar aparecer o fundo do site, ela ajusta a imagem para caber em todo o display*/
+            height: 100vh;
+
+        }
+
+        main {
+            background-color: aliceblue;
+            width: 400px;
+            margin: auto;
+            padding: 30px;
+            border: 15px groove rgb(34, 158, 167);
+            border-radius: 30px;
+        }
+
+    </style>
+
+</head>
+<body>
+    <main>
+    <h1>teste </h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit eligendi ipsam id et pariatur delectus facere non ab? Aperiam corporis earum aspernatur perspiciatis sunt aut odit ea optio autem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit eligendi ipsam id et pariatur delectus facere non ab? Aperiam corporis earum aspernatur perspiciatis sunt aut odit ea optio autem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit eligendi ipsam id et pariatur delectus facere non ab? Aperiam corporis earum aspernatur perspiciatis sunt aut odit ea optio autem?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto reprehenderit eligendi ipsam id et pariatur delectus facere non ab? Aperiam corporis earum aspernatur perspiciatis sunt aut odit ea optio autem?</p>
+    
+    
+    </main>
+</body>
+</html>

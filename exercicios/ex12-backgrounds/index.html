@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>inserindo imagens</title>
+
+    <style>
+        body {
+            background-color: lightgray;
+            
+        }
+
+        main{
+            height: 2000px;
+            width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        div.quadrada {
+            display: inline-block;
+            border: 2px solid black;
+            width: 200px;
+            height: 200px;
+            border-radius: 25px;
+
+        }
+        div#q1 {
+
+            background-color: rgb(97, 168, 168);
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to top, blue, pink, white);
+        }
+
+        div#q3{
+            background-image: url('imagens/pattern004.png');
+            
+        }
+
+        div#imgfundo {
+            display: inline-block;
+            background-image: url("imagens/wallpaper002.jpg");
+            
+            width: 615px;
+            height: 400px;
+            border-radius: 30px;
+            border: 2px solid black;
+            margin-top: 40px;
+        }
+
+    </style>
+
+
+</head>
+<body>
+    <main>
+        <div class="quadrada" id="q1"></div>
+        <div class="quadrada" id="q2"></div>
+        <div class="quadrada" id="q3"></div>
+        <div id="imgfundo"></div>
+    </main>
+    
+</body>
+</html>
