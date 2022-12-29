@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>centralizando caixas</title>
+    <style>
+        div#container{
+            background-color: burlywood;
+            color: beige;
+            background-image: url("imagens/target001.png") ;
+            height: 97vh;
+            background-size: 100% 100%;
+            position: relative;
+            
+            
+        }
+        div#conteudo{
+            background-image: url("imagens/target001.png");
+            background-color: rgb(88, 155, 155);
+            color: yellow;
+            height: 200px;
+            width: 300px;
+            background-size: 100% 100%;
+            position: absolute;
+            /*toda div com posição absoluta, libera outras duas propriedades, left, top, a serem configuradas*/
+
+            left: 50%;
+            top: 50%;
+            
+            transform:translate(-50%,-50%);/*tudo que for declarado entre parenteses, é seguido de virgulas*/
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="container">
+        este é o container
+    </div>
+    <div id="conteudo">
+        este é o conteudo
+        
+    </div>
+</body>
+</html>
