@@ -71,15 +71,14 @@ header{
     #imgjoaninha{
         
         background-image: url("imagens/background001.jpg");
-        background-size: 100% 100%;
-        background-repeat: no-repeat;
+        background-size: cover;
         background-attachment: fixed;
         color: white;
        
     }
     #imglivro{
         background-image: url("imagens/background002.jpg");
-        background-size: 100% 100%;
+        background-size: cover;
         background-attachment: fixed;
         color: rgb(255, 255, 255);
     }
