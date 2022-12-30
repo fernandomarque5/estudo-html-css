@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+/*tag @font-face, serve para criar fontes baixadas, especificando o caminho da fonte e o formato*/
+
+@font-face {
+    font-family:'passion';
+    src: url('fontes/Passion_One/PassionOne-Bold.ttf') format('truetype');
+    font-weight:bolder;}
+
+@font-face{
+    font-family:'sriracha' ;
+    src:url('fontes/Sriracha/Sriracha-Regular.ttf') format('truetype')
+}
+
+
+body{
+    margin: auto;
+    
+}
+
+header{
+    
+    background-color: black;
+    background-attachment:fixed;
+    
+    }
+    #headerh1{
+        font-family:'passion';
+        color: white;
+        margin: 0px;
+        text-align: center;
+        font-size: 70px;
+        padding-top: 50px;
+        
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #headerh3{
+        color: white;
+        text-align: center;
+        margin: 0px;
+        font-size: 30px;
+        padding-bottom: 50px;
+    }
+    a{
+        font-family:'passion';
+        text-decoration: underline;
+        color: white;
+    }
+    
+    p{
+        width: 300px;
+        margin: 0px;
+        padding: 60px ;
+        padding-left: 20px;
+        font-family: 'sriracha';
+        font-size: 1.5em;
+    }
+
+    div#pcaixa{
+        box-shadow: 2px solid black;
+        
+    }       
+    
+    
+    #imgjoaninha{
+        
+        background-image: url("imagens/background001.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        color: white;
+       
+    }
+    #imglivro{
+        background-image: url("imagens/background002.jpg");
+        background-size: 100% 100%;
+        background-attachment: fixed;
+        color: rgb(255, 255, 255);
+    }
+
+
+div > a{
+    color: black;
+    text-align: center;
+    font-family: 'passion';
+}
+    #desenvolvido{
+        text-align: center;
+    }
+        
+    
