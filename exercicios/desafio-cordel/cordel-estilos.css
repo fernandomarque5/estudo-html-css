@@ -21,7 +21,7 @@ body{
 header{
     
     background-color: black;
-    background-attachment:fixed;
+    
     
     }
     #headerh1{
@@ -32,6 +32,7 @@ header{
         font-size: 70px;
         padding-top: 50px;
         min-width: 200px;
+        max-width: 600px;
        
 
     }
@@ -64,7 +65,8 @@ header{
     #imgjoaninha{
         
         background-image: url("imagens/background001.jpg");
-        background-size: 100% 100%;
+        background-size: 100vh;
+        background-repeat: no-repeat;
         background-attachment: fixed;
         color: white;
        
