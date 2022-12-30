@@ -65,7 +65,7 @@ header{
     #imgjoaninha{
         
         background-image: url("imagens/background001.jpg");
-        background-size: 100vh;
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         color: white;
