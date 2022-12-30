@@ -50,18 +50,15 @@ header{
     }
     
     p{
-        width: 300px;
+        text-align: justify;
+        width: 450px;
         margin: 0px;
         padding: 60px ;
         padding-left: 20px;
         font-family: 'sriracha';
         font-size: 1.5em;
     }
-
-    div#pcaixa{
-        box-shadow: 2px solid black;
-        
-    }       
+    
     
     
     #imgjoaninha{
