@@ -31,9 +31,9 @@ header{
         text-align: center;
         font-size: 70px;
         padding-top: 50px;
-        min-width: 200px;
+        min-width: 100px;
         max-width: 600px;
-       
+       margin: auto;
 
     }
     #headerh3{
@@ -65,7 +65,7 @@ header{
     #imgjoaninha{
         
         background-image: url("imagens/background001.jpg");
-        background-size: cover;
+        background-size: 100% 100%;
         background-repeat: no-repeat;
         background-attachment: fixed;
         color: white;
