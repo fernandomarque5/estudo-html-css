@@ -15,7 +15,11 @@
 
 body{
     margin: auto;
+    min-width: 100vw;
+    max-width: 50vw;
     min-height: 100vh;
+    max-height: 50vh;
+
     
 }
 
@@ -30,7 +34,7 @@ header{
         color: white;
         margin: 0px;
         text-align: center;
-        font-size: 5vw;
+        font-size: 4.5vw;
         padding-top: 50px;
         
 
@@ -48,18 +52,26 @@ header{
         color: white;
     }
     
+    
+
     p{
         text-align: justify;
         max-width: 100vh;
-        
         margin: 0px;
         padding: 60px ;
         padding-left: 20px;
         font-family: 'sriracha';
         font-size: 1.5em;
     }
-    
-    
+    #pcaixa{
+        
+        background-color: rgba(107, 106, 106, 0.021);
+        
+    }
+    #quintop{
+        
+        
+    }
     
     #imgjoaninha{
         
