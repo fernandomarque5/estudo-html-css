@@ -1,0 +1,25 @@
+ul{
+    background-color: rgb(117, 113, 108);
+    
+}
+
+    li{
+        float: left;
+        list-style-type: none;
+        
+    }
+    a{
+        display: inline-block;
+        text-decoration: none;
+        color: black;
+        margin-right: 10px;
+        line-height: 30pt;
+        
+        
+        
+    }
+    li a:hover,#botao:hover{
+        background-color: brown;
+        color: blanchedalmond;
+    }
+    

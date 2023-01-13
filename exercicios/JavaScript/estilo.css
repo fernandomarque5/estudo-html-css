@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+
+div{
+            
+    width: 200px;
+    height: 100px;
+    text-align: center;
+    background-color: rgb(25, 0, 248);
+    color: #3df106;
+    font: normal 15pt arial;
+    
+}
+
+@media screen and (min-width:600px) and (max-width:800px) {
+    #titulo{
+        background: blue;
+        height: 300px;
+    }
+}
+
+@media screen and (min-width:400px) and (max-width:600px) {
+    #titulo{
+        background: rgb(124, 255, 2);
+        height: 300px;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:400px) {
+    #titulo{
+        background: rgb(253, 2, 241);
+        height: 300px;
+    }
+}
+@media screen and (min-width:50px) and (max-width:200px) {
+    #titulo{
+        background: rgb(255, 0, 0);
+        height: 300px;
+    }
+}@media screen and (min-width:800px) and (max-width:1200px) {
+    #titulo{
+        background: rgb(135, 192, 230);
+        height: 300px;
+    }
+}
+@media screen and (min-width:1200px) and (max-width:2120px) {
+    #titulo{
+        background: blue;
+        height: 300px;
+    }
+}

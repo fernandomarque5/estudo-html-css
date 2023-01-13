@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Impirmindo resultados JS</title>
+
+    <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+    <h1 id="titulo">Inserindo botoes interativos</h1>
+    <p>para inserir botões em HTML, utiliza-se a TAG <br>
+        <b>"button",</b> veja o botão abaixo
+    </p>
+    <button>Clique em Mim</button>
+    
+    <p>para atribuirmos uma interação com o botão, precisamos utilizar o JavaSript, e criar uma função ao qual queremos que aconteça quando clicarmos no botão <br>
+    Ex: quando clicar no botão, irá aparecer um alerta na tela, indicando que voce apertou o botão
+    </p>
+    <button onclick="alerta()">Clique para o Alerta em tela</button>
+
+    <p>Podemos também utilizar o JavaSript, para quando clicar em um botão, ele mude a cor de fundo do site <br>
+    </p>
+
+    <button onclick="cor_fundo()">Clique para mudar a cor do site</button>
+
+    <p>Podemos tambem criar eventos com interação de caixas. <br>
+    ex: ao passar o ponteiro do mouse na caixa, ela mude o conteúdo escrito. ao sair e clicar também
+    </p>
+
+    <div id="evento_mouse" onmouseout="mouse_saiu()" onmouseover="mouse_sobre()" onmouseenter="mouseenter()", onmouseleave="mousesaiu()" onclick="clicou_na_caixa()"> Passe o Mouse <br> para mudar o conteudo</div>
+
+
+    <br><br>
+
+   <input id="caixa" type="text" placeholder="Digite">
+
+   <button id="btn_verificar" onclick="verificar()">verificar</button>
+   
+    <p id="p1"></p>
+
+    <script src="pais.js"></script>
+</body>
+</html>
