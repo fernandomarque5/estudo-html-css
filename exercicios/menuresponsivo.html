@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <link rel="stylesheet" href="estilos.css">
+    
+</head>
+<body onresize="mudou()">
+    <header>
+        <img class="logoWhats" src="logo-whats (1).png" alt="logo">
+        <button><img onclick="clicou()" class="botao" src="menubar.png" alt=""></button>
+
+
+        <div id="navbar"><!--JS aceita por padrao so ID-->
+            <a class="navhome" href="#">Home</a>
+            <a class="navagenda" href="#">Agenda</a>
+            <a class="navfaleconosco" href="#">Fale conosco</a>
+        </div>
+    </header>
+
+    <script>
+        function mudou(){
+            if(window.innerWidth >= 631)
+            navbar.style.display = 'block'
+            else{
+                navbar.style.display = 'none'
+            }
+        }
+
+
+        function clicou(){
+            if(navbar.style.display == 'none'){
+                navbar.style.display = 'block'
+            }else{
+                navbar.style.display = 'none'
+            }
+        }
+    </script>
+
+</body>
+</html>

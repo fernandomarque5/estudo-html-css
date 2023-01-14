@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+@media screen and (max-width:500px){
+    .navbar{
+        display: block;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        background-color: aqua;
+        width: 300px;
+        height: 300px;
+    }
+}

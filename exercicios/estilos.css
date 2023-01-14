@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    position: relative;
+    background-color: rgb(99, 247, 94);
+    height: 180px;
+}
+.logoWhats{
+    position: absolute;
+    height: 140px;
+    top: 2vh;
+    left: 7vw;
+    transform: translate(-7%, -2%);
+}
+
+
+.botao{
+    width: 40px;
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-90%, -50%);
+}
+
+
+h1{
+    position: absolute;
+    left:50vw;
+    top:1vh;
+    transform: translate(-50%, -6%);
+}
+.navbar{
+    display: none;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    }
+    .navhome, .navagenda, .navfaleconosco{
+        text-decoration: none;
+        padding: 5px;
+        margin-right: 5px;
+        color: rgb(16, 49, 12);
+        font: 18pt bold arial;
+    }
+    .navhome:hover, .navagenda:hover, .navfaleconosco:hover{
+        background-color: rgb(141, 201, 30);
+        padding: 8px;
+        color: aliceblue;
+        border-radius: 15px;
+        box-sizing: border-box;
+        
+    }
+    @media screen and (min-width:630px){
+        .botao{
+            display: none;
+        }
+    }
+    @media screen and (min-width:631px){
+        .navbar{    
+        display: block;
+        }
+    }
+    @media screen and (min-width:1px) and (max-width:650px){
+        .navhome{
+            position: absolute;
+            left: 12%;
+            top: 90%;
+            transform: translate(-12%, -90%);
+           
+            text-align: center;
+        }
+        .navagenda{
+            position: absolute;
+            left: 45%;
+            top: 90%;
+            transform: translate(-45%, -90%);
+            text-align: center;
+        }
+        .navfaleconosco{
+            position: absolute;
+            left: 95%;
+            top: 90%;
+            transform: translate(-95%, -90%);
+            width: 35vw;
+            text-align: center;
+        }
+        header{
+            height: 140px;
+        }
+        .botao{
+            position: absolute;
+            top: 35%;
+        }
+        .logoWhats{
+            position: absolute;
+            width: 80px;
+            height: 100px;
+            top: 2%;
+        }
+        
+    }
