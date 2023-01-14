@@ -34,7 +34,7 @@ h1{
     top:1vh;
     transform: translate(-50%, -6%);
 }
-.navbar{
+.navbarindor{
     display: none;
     position: absolute;
     top:50%;
@@ -54,8 +54,26 @@ h1{
         color: aliceblue;
         border-radius: 15px;
         box-sizing: border-box;
-        
     }
+   
+    .navhomeoutdor:hover, .navagendaoutdor:hover, .navfaleconoscooutdor:hover{
+        background-color: rgb(141, 201, 30);
+        padding: 8px;
+        color: aliceblue;
+        border-radius: 15px;
+        box-sizing: border-box;
+    }
+
+
+
+    main{
+        position: relative;
+    }
+    h1{
+        position: relative;
+    }
+
+
     @media screen and (min-width:630px){
         .botao{
             display: none;
@@ -66,42 +84,7 @@ h1{
         display: block;
         }
     }
-    @media screen and (min-width:1px) and (max-width:650px){
-        .navhome{
-            position: absolute;
-            left: 12%;
-            top: 90%;
-            transform: translate(-12%, -90%);
-           
-            text-align: center;
-        }
-        .navagenda{
-            position: absolute;
-            left: 45%;
-            top: 90%;
-            transform: translate(-45%, -90%);
-            text-align: center;
-        }
-        .navfaleconosco{
-            position: absolute;
-            left: 95%;
-            top: 90%;
-            transform: translate(-95%, -90%);
-            width: 35vw;
-            text-align: center;
-        }
-        header{
-            height: 140px;
-        }
-        .botao{
-            position: absolute;
-            top: 35%;
-        }
-        .logoWhats{
-            position: absolute;
-            width: 80px;
-            height: 100px;
-            top: 2%;
-        }
+   
+    
         
-    }
+    

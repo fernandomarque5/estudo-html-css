@@ -1,0 +1,98 @@
+@charset "UTF-8";
+
+
+
+@media screen  and (max-width:320px) {
+    .logoWhats{
+        position: absolute;
+        width: 70px;
+        height: 80px;
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -10%);
+    }
+    .botao320{
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        top: 15%;
+        left: 80%;
+    }
+
+    #botaohomefinal{
+        width: 50px;
+        height: 50px;
+        position: fixed;
+        top: 90vh;
+        left: 80vw;
+    }
+
+    #navbaroutdor{
+        display: none;
+        position: relative;
+        height: 120px;
+        background-image: linear-gradient(to bottom, rgba(118, 212, 131, 0.795),rgba(102, 192, 90, 0.842), rgb(49, 143, 46));
+        
+       
+    }
+    header{
+        background-color: rgb(16, 163, 78);
+        height: 10vh;
+        box-shadow: 0px 0px 4px black;
+       
+        
+    }
+    .navhomeoutdor{
+        position: absolute;
+        width: 100vw;
+        top: 0%;
+        text-decoration: none;
+        text-align: center;
+        padding: 5px;
+        margin-right: 5px;
+        color: rgb(33, 34, 33);
+        font: 18pt bold arial;
+        }
+    .navagendaoutdor{
+        position: absolute;
+        width: 100vw;
+        top: 30%;
+        text-align: center;
+        text-decoration: none;
+        padding: 5px;
+        margin-right: 5px;
+        color: rgb(16, 49, 12);
+        font: 18pt bold arial;
+        
+        }
+    .navfaleconoscooutdor{
+        position: absolute;
+        width: 100vw;
+        top: 65%;
+        text-align: center;
+        text-decoration: none;
+        padding: 5px;
+        margin-right: 5px;
+        color: rgb(16, 49, 12);
+        font: 18pt bold arial;
+        }
+    
+    .botao{
+        display:none;
+        }
+}
+main{
+    width: 90vw;
+    padding: 10px;
+    margin: auto;
+    background-color: rgb(248, 217, 240);
+}
+h1{
+    font-size: 30pt;
+    text-align: center;
+    }
+p{
+    font-size: 20pt;
+    text-indent: 30px;
+    text-align: justify;
+}

@@ -6,36 +6,77 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu</title>
     <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="screen320.css">
+    <link rel="stylesheet" href="screen375.css">
+    <link rel="stylesheet" href="screen630.css">
+    <link rel="stylesheet" href="screen768.css">
+    <link rel="stylesheet" href="screen1024.css">
+    <link rel="stylesheet" href="screen1440.css">
+    <link rel="stylesheet" href="screen2560.css">
     
 </head>
 <body onresize="mudou()">
     <header>
         <img class="logoWhats" src="logo-whats (1).png" alt="logo">
-        <button><img onclick="clicou()" class="botao" src="menubar.png" alt=""></button>
+        <img onclick="clicou()" class="botao" src="menubar.png" alt="botao">
+        <img onclick="clicou320()" class="botao320" src="menubar.png" alt="botao">
 
 
-        <div id="navbar"><!--JS aceita por padrao so ID-->
+        <div id="navbarindor"><!--JS aceita por padrao so ID-->
             <a class="navhome" href="#">Home</a>
             <a class="navagenda" href="#">Agenda</a>
             <a class="navfaleconosco" href="#">Fale conosco</a>
         </div>
+
     </header>
+    <div id="navbaroutdor"><!--JS aceita por padrao so ID-->
+        <a class="navhomeoutdor" href="#">Home</a>
+        <a class="navagendaoutdor" href="#">Agenda</a>
+        <a class="navfaleconoscooutdor" href="#">Fale conosco</a>
+    </div>
+
+    <main>
+
+        <h1>Estou responsivo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis, vel ipsam. Delectus dolorum sed explicabo accusantium, odio quia nesciunt ad et facilis minus exercitationem corporis nam sit, nihil incidunt cumque?</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore excepturi ullam tenetur nemo ipsam harum reiciendis odio molestiae consequatur tempora explicabo eaque unde dolor quod modi mollitia, reprehenderit magni nisi! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur, perferendis? Dolor quo excepturi obcaecati et ipsum voluptatem fuga laborum id deserunt natus ea, eius, nostrum sapiente cupiditate ipsa, aperiam hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis vel unde ut quo adipisci error cum veritatis excepturi doloremque, quis itaque exercitationem fugit aut est rerum, laboriosam, sequi id sit!</p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate eligendi in assumenda reiciendis laudantium amet, voluptates inventore autem, molestiae repudiandae, soluta facere quos accusantium repellat eveniet saepe at sit dolore? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eaque voluptatem ducimus, nostrum ex assumenda odio voluptates perferendis iusto. Accusamus, soluta porro accusantium autem aspernatur dicta nemo alias animi dignissimos. Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias nesciunt praesentium exercitationem veniam corrupti itaque, dignissimos voluptate ipsam quidem sunt earum, cupiditate ut deleniti reprehenderit minus ad repellat beatae repudiandae.</p>
+
+    </main>
+
+    <div>
+        <a  href="#"><img id="botaohomefinal" src="logocasa.png" alt=""></a>
+    </div>
+
+
+
+
+
+
+
 
     <script>
         function mudou(){
             if(window.innerWidth >= 631)
-            navbar.style.display = 'block'
+            navbarindor.style.display = 'block'
             else{
-                navbar.style.display = 'none'
+                navbarindor.style.display = 'none'
             }
         }
 
 
         function clicou(){
-            if(navbar.style.display == 'none'){
-                navbar.style.display = 'block'
+            if(navbarindor.style.display == 'none'){
+                navbarindor.style.display = 'block'
             }else{
-                navbar.style.display = 'none'
+                navbarindor.style.display = 'none'
+            }
+        }
+        function clicou320(){
+            if(navbaroutdor.style.display == 'none'){
+                navbaroutdor.style.display = 'block'
+            }else{
+                navbaroutdor.style.display = 'none'
             }
         }
     </script>
