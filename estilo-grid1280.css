@@ -3,6 +3,9 @@
     padding: 0px;
     box-sizing: border-box;
 }
+@media screen and (min-width:900px) and (max-width:1380px) {
+    
+
 body{
     background-color: rgb(138, 135, 135);
     height: 1500px;
@@ -15,13 +18,14 @@ header{
     background-color: rgba(34, 94, 122, 0.89);
     }
     #logoSite{
+    display: flex;
     margin-left: 10%;
-    padding: 5px;
+    
     }
     #icone-menu{
         display: none;
     }
-#botao_menu{
+#icone-do-menu{
     display: none;
 }
 input{
@@ -30,15 +34,19 @@ input{
 nav{
     margin-left: 10%;
     display: flex;
-    justify-content:flex-end;
+    justify-content:center;
     align-items:center;
+   
+
     }
     .links-container{
         display: flex;
         justify-content: center;
         align-items: center;
         height: 70px;
-        column-gap: 5px;
+        column-gap: 10px;
+        width: 500px;
+        
         }
         .links{
         display: flex;
@@ -48,7 +56,7 @@ nav{
         }
         .links:hover{
             background-color: rgb(23, 119, 114);
-            
+            border-radius: 20px;
             box-shadow: 0px 0px 4px rgb(27, 9, 51);
             transform:translateY(2px);
             transition: 0.7s;
@@ -56,7 +64,7 @@ nav{
             a{
                 text-decoration: none;
                 color: rgb(201, 240, 240); 
-                padding: 8px               
+                padding: 9px               
             }
             #quemSomos{
                 order:1;
@@ -65,22 +73,22 @@ nav{
                 order:-1;
             }
             .icones{
-                height: 20px;
+                height: 25px;
                 width: 30px;
                 margin-right: 5px;
             }
 #nav-redes-sociais{
-    width: 550px;
-    
-    justify-content: flex-end;
+   width: 150px;
+    margin-left: 15%;
+    justify-content: flex-start;
     align-items: center;
     column-gap: 5px;
     }
         .sizeIcons{
-            height: 15px;
-            width: 15px;
+            height: 25px;
+            width: 25px;
         }
 #nav-outheader{
     display: none;
 }
-            
+}  

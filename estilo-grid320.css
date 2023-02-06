@@ -29,16 +29,18 @@ body{
     #check:checked ~ #nav-outheader{
         margin-left: 50vw;
         transition: 0.7s;
+        box-shadow: 1px 1px 6px 1px rgb(3, 39, 56);
     }
 
 header{
-    height:70px;
+    height:60px;
     background-color: rgb(34, 94, 122);
     position: fixed;
+    box-shadow: 1px 1px 5px rgb(3, 39, 56);
     }
     #logoSite{
+    display: flex;
     margin-left:5%;
-    padding: 5px;
     }
     
 nav{
@@ -59,10 +61,9 @@ nav{
                     align-items: center;
                     row-gap: 15px;
                     background-color: rgba(26, 122, 151, 0.945);
-                    margin-top: 70px;
+                    margin-top: 60px;
                     height: 100%;
-                    width: 65vw;
-                    
+                    width: 55vw;
                     }
                     .links{
                     display: flex;
@@ -73,11 +74,8 @@ nav{
                     }
                     .links:hover{
                         background-color: rgb(23, 119, 114);
-                        border-bottom-right-radius:60px;
-                        border-top-left-radius:60px;
-                        border-bottom-left-radius:60px;
                         box-shadow: 0px 0px 4px rgb(27, 9, 51);
-                        transform:translateY(2px);
+                        transform:translateY(1px);
                         transition: 0.7s;
                         
                         }
@@ -91,6 +89,19 @@ nav{
                             width: 30px;
                             margin-right: 5px;
                         }
+#nav-redes-sociais-outheader{
+width: 200px;
+background-color: aqua;
+margin-left: 8%;
+justify-content: center;
+align-items: center;
+column-gap: 5px;
+
+}
+.sizeIcons{
+height: 15px;
+width: 15px;
+}
 
 }  
                         
