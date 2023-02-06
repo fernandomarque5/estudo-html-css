@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste</title>
+    <style>
+        #caixa{
+            width:200px;
+            height:200px;
+            background-color: rgb(42, 150, 150);
+            text-align: center;
+            
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <div id="caixa" onmouseenter="passouMouse()" onmouseout="tiroumouse()">
+        Passe o mouse para <br>
+        abrir o menu suspenso
+    </div>
+
+
+    <script>
+        function passouMouse(){
+            window.document.getElementById("caixa").innerText = " voce passou o mouse ";
+        }
+        function tiroumouse(){
+            window.document.getElementById("caixa")
+            .innerText = "voce tirou o mouse"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(138, 135, 135);
+    height: 1500px;
+}
+header{
+    width: 100vw;
+    position: fixed;
+    display: flex;
+    height:70px;
+    background-color: rgba(34, 94, 122, 0.89);
+    }
+    #logoSite{
+    margin-left: 10%;
+    padding: 5px;
+    }
+    #icone-menu{
+        display: none;
+    }
+#botao_menu{
+    display: none;
+}
+input{
+    display: none;
+}
+nav{
+    margin-left: 10%;
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+    }
+    .links-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 70px;
+        column-gap: 5px;
+        }
+        .links{
+        display: flex;
+        align-items:center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: bolder;
+        }
+        .links:hover{
+            background-color: rgb(23, 119, 114);
+            border-bottom-right-radius:60px;
+            border-top-left-radius:60px;
+            border-bottom-left-radius:60px;
+            box-shadow: 0px 0px 4px rgb(27, 9, 51);
+            transform:translateY(2px);
+            transition: 0.7s;
+            }
+            a{
+                text-decoration: none;
+                color: rgb(201, 240, 240); 
+                padding: 8px               
+            }
+            #quemSomos{
+                order:1;
+            }
+            #agendamentos{
+                order:-1;
+            }
+            .icones{
+                height: 20px;
+                width: 30px;
+                margin-right: 5px;
+            }
+#nav-redes-sociais{
+    width: 250px;
+    justify-content: flex-end;
+    align-items: center;
+    column-gap: 5px;
+    }
+        .sizeIcons{
+            height: 15px;
+            width: 15px;
+        }
+#nav-outheader{
+    display: none;
+}
+            

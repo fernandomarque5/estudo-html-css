@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+@media screen and (min-width:320px) and (max-width:475px) {
+
+body{
+    background-color: rgb(138, 135, 135);
+}
+
+#container-do-menu{
+    position: absolute;
+    left: 90%;
+    top: 50%;
+    transform: translate(-90%, -50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    }
+    #container-do-menu > #icone-do-menu {
+        color: aliceblue;
+        width: 35px;
+        height:35px;
+    }
+    #check:checked ~ #nav-outheader{
+        margin-left: 50vw;
+        transition: 0.7s;
+    }
+
+header{
+    height:70px;
+    background-color: rgb(34, 94, 122);
+    position: fixed;
+    }
+    #logoSite{
+    margin-left:5%;
+    padding: 5px;
+    }
+    
+nav{
+    display:none;
+    }
+#nav-outheader{
+    display: block;
+    height: 100%;
+    margin-left: 100vw;
+    transition: 0.7s;
+    
+}
+                .links-container-outheader{
+                    position: fixed;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: flex-start;
+                    align-items: center;
+                    row-gap: 15px;
+                    background-color: rgba(26, 122, 151, 0.945);
+                    margin-top: 70px;
+                    height: 100%;
+                    width: 65vw;
+                    
+                    }
+                    .links{
+                    display: flex;
+                    align-items:center;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: bolder;
+                    width: 100%;
+                    }
+                    .links:hover{
+                        background-color: rgb(23, 119, 114);
+                        border-bottom-right-radius:60px;
+                        border-top-left-radius:60px;
+                        border-bottom-left-radius:60px;
+                        box-shadow: 0px 0px 4px rgb(27, 9, 51);
+                        transform:translateY(2px);
+                        transition: 0.7s;
+                        
+                        }
+                        a{
+                            text-decoration: none;
+                            color: rgb(201, 240, 240); 
+                            padding: 8px               
+                        }
+                        .icones{
+                            height: 20px;
+                            width: 30px;
+                            margin-right: 5px;
+                        }
+
+}  
+                        
+          
