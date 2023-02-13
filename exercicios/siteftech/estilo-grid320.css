@@ -39,7 +39,7 @@ header{
     box-shadow: 1px 1px 5px rgb(3, 39, 56);
     }
     #logoSite{
-    display: flex;
+    display: inline-block;
     margin-left:5%;
     }
     
